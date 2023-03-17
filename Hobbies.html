@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+
+<head>
+  <meta charset="utf-8">
+  <title>My Hobbies</title>
+</head>
+<body>
+  <h3>My Hobbies</h3>
+<ol>
+    <li>Gym</li>
+    <li>Martial arts</li>
+    <li id="drink-item"><a href="https://awebaredrinkeria.menudino.com/?fbclid=PAAabf5eNcyiPCqRVxA6VQsRWpuqkQB2huVMoer_tmSzGceLCUQv7lfkhpQpk">Preparing drinks</a></li>
+
+    <script>
+      const drinkItem = document.querySelector('#drink-item');
+      drinkItem.addEventListener('click', () => {
+        alert('Cheers! 🍹');
+      });
+    </script>
+  </ol>
+</body>
+
+</html>
